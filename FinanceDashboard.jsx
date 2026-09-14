@@ -66,7 +66,7 @@ function seedData() {
 
 function fmt(n) {
   const sign = n < 0 ? "-" : "";
-  return sign + "₺" + Math.abs(Math.round(n)).toLocaleString("tr-TR");
+  return sign + "$" + Math.abs(Math.round(n)).toLocaleString("tr-TR");
 }
 
 function monthLabel(key) {
