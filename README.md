@@ -54,6 +54,4 @@ npm run dev
 Amounts are formatted in USD ($) by default — change the fmt() function to switch currencies.
 This project was originally built in an environment with a built-in window.storage API. Outside that environment, swap the storage calls for localStorage, IndexedDB, or a backend of your choice if you want persistence.
 
-**License
 
-MIT** 
